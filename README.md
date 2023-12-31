@@ -17,7 +17,7 @@ And browser listens for this event
 ```js
 const evtSource = new EventSource(sourceTarget);
 evtSource.addEventListener( "myEvent", function( event ) {
-	... // Event handing
+    ... // Event handing
 });
 
 ```
